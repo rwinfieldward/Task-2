@@ -1,0 +1,16 @@
+/* 
+Name: Rachel Winfield-Ward
+Student Number: 8761871 
+*/
+
+body{
+    font: 150px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: hsla(33, 100%, 88%, 0.9);
+    width: 100vw;
+    height: 100vh;
+}
+h2{
+    color: #c53;
+    font-size: 2rem
+}
