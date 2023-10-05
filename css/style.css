@@ -4,13 +4,50 @@ Student Number: 8761871
 */
 
 body{
-    font: 150px;
-    font-family:'Times New Roman', Times, serif;
-    background-color: hsla(33, 100%, 88%, 0.9);
+    font : normal normal normal 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
+    background-color: hsla(32, 48%, 76%, 0.9);
     width: 100vw;
     height: 100vh;
+    padding: 2em
 }
 h2{
     color: #c53;
-    font-size: 2rem
+    font-size: 1.5em
 }
+header{
+    background-color: hsl(35, 36%, 64%);
+}
+main{
+    float: left;
+    width: 65vw;
+    height: 40vh;
+    background-color: hsl(35, 38%, 58%);
+}
+aside{
+    float: right;
+    width: 25vw;
+    height: 40vh;
+    background-color: hsl(35, 47%, 61%);
+}
+footer{
+    clear: both;
+    background-color: hsl(34, 32%, 50%);
+}
+.structural{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+#para1{
+    color: rgb(107, 5, 8)
+}
+#para2{
+    color: rgb(52, 3, 5)
+}
+a:hover{
+    color: #c54;
+}
+footer p{
+    font-size: .75em;
+}
+
