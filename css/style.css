@@ -85,6 +85,7 @@ input[type=text], input[type=email], input[type=sumbit], select, option{
 input[type=radio], input[type=checkbox]{
     height: 1em;
     width: 1em;
+    /*2em was ugly so I did 1em :) */
 }
 select, option, label, legend, input[type=submit]{
     font-size: 1.5 rem;
