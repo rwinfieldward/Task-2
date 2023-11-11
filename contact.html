@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Keanu's Day Out</title>
+    <!--Name: Rachel Winfield-Ward   Email: rwinfieldward1871@conestogac.on.ca-->
+</head>
+<body>
+    <header class="structural">
+        <h1>Keanu's Day Out</h1>
+    
+    <nav class="structural">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main class="structural">
+        <h2>Contact</h2>
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required autofocus>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <fieldset>
+                <legend>What section of PROG1245 are you in?</legend>
+                <input type="radio" name="sec" id="4" value="4" required checked>
+                <label for="4">Section 4</label>
+                <br>
+                <input type="radio" name="sec" id="5" value="5">
+                <label for="5">Section 5</label>
+                <br>
+                <input type="radio" name="sec" id="8" value="8">
+                <label for="8">Section 8</label>
+            </fieldset>
+            <div>
+                <label for="help">What do you need help with?</label>
+                <select name="help" id="help" required>
+                    <option value="" selected>Select</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="both">Both (HTML & CSS)</option>
+                </select>
+            </div>
+            <div>
+                <label for="comment">Comments</label>
+                <br>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="human" id="human" value="true" required>
+                <label for="human">I am not a robot</label>
+            </div>
+            <div>
+                <input type="submit" id="sumbit" value="Submit">
+            </div>
+        </form>
+    </main>
+    <aside class="structural">
+        <h2>Few of my meow-valous belongings:</h2>
+        <ul>
+            <li>
+                <a href="https://www.petsmart.ca/cat/food-and-treats/catnip-and-grass/meowijuana-pawty-mix-catnip-61443.html?cgid=200171&fmethod=Browse" target="_blank">Catnip</a>
+            </li>
+            <li>
+                <a href="https://www.petsmart.ca/cat/toys/plush-balls-and-mice/multipet-lamb-chop-cat-holding-sparkle-orange-fish-cat-toy-5338443.html?gclid=EAIaIQobChMI4cGr05POgQMV1hOtBh1D9wJzEAQYASABEgL3hvD_BwE&gclsrc=aw.ds" target="_blank">Lambchop</a>
+            </li>
+        </ul>
+    </aside>
+
+    <footer class="structural">
+        <p>&copy;Thank you so much for reading!</p>
+    
+        <img src="https://m.media-amazon.com/images/I/31c90-Va3xL._AC_UF1000,1000_QL80_.jpg" height="60px" width="40px">
+    </footer>
+</body>
+</html>
